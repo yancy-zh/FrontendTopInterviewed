@@ -1,0 +1,18 @@
+.MultilineBox2 {
+  width: 400px;
+  height: 200px;
+  background-color: lightgreen;
+  border: 2px solid;
+  overflow: hidden;
+  line-height: 20px;
+  text-align: justify;
+  position: relative;
+}
+::after {
+  content: "...";
+  width: 1em; /* 设置伪元素的宽度为1em，是为了遮盖的时候正好遮盖中原来的一个字的大小*/
+  background-color: lightgreen; /* 设置与父元素相同的背景颜色，同理，也是为了和原来的内容样式保持一致*/
+  position: absolute; /*设置定位，其位置就是文本的右下角 */
+  right: 0;
+  bottom: 0;
+}

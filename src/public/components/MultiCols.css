@@ -1,0 +1,14 @@
+.box {
+  overflow: hidden;
+}
+.left {
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: grey;
+}
+.right {
+  width: 200px;
+  margin-left: 210px;
+  background-color: lightgray;
+}

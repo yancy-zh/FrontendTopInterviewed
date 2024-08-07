@@ -1,0 +1,27 @@
+.box2 {
+  margin-top: 20px;
+  background: #eee;
+  height: 120px;
+  width: 520px;
+  overflow: hidden;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.left2 {
+  width: 150px;
+  height: 100px;
+  float: left;
+  background: lightblue;
+}
+.right2 {
+  width: 130px;
+  height: 100px;
+  float: right;
+  background: coral;
+}
+.middle2 {
+  margin-left: 160px;
+  margin-right: 150px;
+  height: 100px;
+  background: lightpink;
+}

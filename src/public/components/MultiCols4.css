@@ -1,0 +1,24 @@
+.left4,
+.right4,
+.middle4 {
+  height: 200px;
+}
+.left4 {
+  background: green;
+  width: 100px;
+  float: left;
+}
+.right4 {
+  background: lightgreen;
+  width: 100px;
+  float: right;
+  margin-right: 100px;
+}
+.box4 {
+  float: left;
+  width: 100%;
+}
+.middle4 {
+  background: grey;
+  margin: 0 110px;
+}

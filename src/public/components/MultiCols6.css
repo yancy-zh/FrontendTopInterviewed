@@ -1,0 +1,21 @@
+.middle6,
+.left6,
+.right6,
+.box6 {
+  height: 200px;
+}
+.box6 {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100px auto 100px;
+}
+
+.left6 {
+  background: green;
+}
+.right6 {
+  background: lightgreen;
+}
+.middle6 {
+  background: grey;
+}

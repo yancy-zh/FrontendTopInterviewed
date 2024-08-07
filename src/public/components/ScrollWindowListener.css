@@ -1,0 +1,12 @@
+img {
+  background: url("./img/loading.gif") no-repeat center;
+  width: 250px;
+  height: 250px;
+  display: block;
+}
+.window-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 2px solid #ccc;
+  width: 250px;
+}

@@ -1,0 +1,13 @@
+.box1 {
+  display: flex;
+  margin-top: 20px;
+}
+.left1 {
+  width: 200px;
+  background-color: grey;
+}
+.right1 {
+  margin-left: 20px;
+  flex: 1;
+  background-color: lightgray;
+}

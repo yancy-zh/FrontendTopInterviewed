@@ -1,0 +1,31 @@
+.box3 {
+  margin-top: 20px;
+  height: auto;
+  position: relative;
+  background: #eee;
+}
+.left3,
+.right3,
+.middle3 {
+  height: 100px;
+  line-height: 20px;
+  text-align: center;
+}
+.left3 {
+  position: absolute;
+  width: 100px;
+  top: 0px;
+  left: 0px;
+  background: lightblue;
+}
+.middle3 {
+  margin: 20px 110px;
+  background: lightpink;
+}
+.right3 {
+  position: absolute;
+  width: 100px;
+  top: 0px;
+  right: 0px;
+  background: coral;
+}
