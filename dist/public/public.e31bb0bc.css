@@ -307,15 +307,16 @@ progress {
   text-align: justify;
   position: relative;
 }
+/*
 ::after {
   content: "...";
-  width: 1em; /* 设置伪元素的宽度为1em，是为了遮盖的时候正好遮盖中原来的一个字的大小*/
-  background-color: lightgreen; /* 设置与父元素相同的背景颜色，同理，也是为了和原来的内容样式保持一致*/
-  position: absolute; /*设置定位，其位置就是文本的右下角 */
+  width: 1em; //设置伪元素的宽度为1em，是为了遮盖的时候正好遮盖中原来的一个字的大小
+  background-color: lightgreen; //设置与父元素相同的背景颜色，同理，也是为了和原来的内容样式保持一致
+  position: absolute; //设置定位，其位置就是文本的右下角 
   right: 0;
   bottom: 0;
 }
-
+*/
 .grid > div {
   list-style: none;
   border: solid 2px green;
@@ -380,6 +381,32 @@ img {
   grid-template-columns: 1fr 1fr;
   border: 2px solid #ccc;
   width: 250px;
+}
+
+.msg-output {
+  margin-top: 20px;
+  width: 100%;
+  border: 2px firebrick solid;
+  background-color: azure;
+  align-items: center;
+}
+
+.parse-url-box {
+  width: 1000px;
+  height: 500px;
+  margin: 20px auto auto 0;
+  border: 2px royalblue solid;
+  align-items: center;
+}
+
+.parse-url-input-wrapper {
+  margin: 20px auto auto auto;
+  width: 500px;
+  height: auto;
+  border: 2px firebrick solid;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
 }
 
 

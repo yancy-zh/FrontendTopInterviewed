@@ -1,0 +1,17 @@
+.parse-url-box {
+  width: 1000px;
+  height: 500px;
+  margin: 20px auto auto 0;
+  border: 2px royalblue solid;
+  align-items: center;
+}
+
+.parse-url-input-wrapper {
+  margin: 20px auto auto auto;
+  width: 500px;
+  height: auto;
+  border: 2px firebrick solid;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,7 @@
+.msg-output {
+  margin-top: 20px;
+  width: 100%;
+  border: 2px firebrick solid;
+  background-color: azure;
+  align-items: center;
+}

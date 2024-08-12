@@ -12,6 +12,8 @@ import MultilineOverflow2 from "./components/MultilineOverflow2.js";
 import NineCells from "./components/NineCells.js";
 import CurryFunction from "./components/CurryFunction.js";
 import ScrollWindowListener from "./components/ScrollWindowListener.js";
+import Promise from "./components/Promise.js";
+import ParseUrl from "./components/ParseUrl.js";
 class App extends Component {
   render() {
     return (
@@ -20,7 +22,7 @@ class App extends Component {
         <p>
           Edit <code>src/App.js</code>, save and reload.
         </p>
-        {/* <MultiCols></MultiCols> */}
+        <MultiCols></MultiCols>
         {/* <MultiCols1></MultiCols1> */}
         {/* three cols */}
         {/* using float */}
@@ -38,8 +40,10 @@ class App extends Component {
         {/*实现多行文本溢出的省略  使用定位伪元素遮盖末尾文字*/}
         {/* <MultilineOverflow2></MultilineOverflow2> */}
         {/* <NineCells></NineCells> */}
-        <CurryFunction></CurryFunction>
-        <ScrollWindowListener></ScrollWindowListener>
+        {/* <CurryFunction></CurryFunction> */}
+        {/* <ScrollWindowListener></ScrollWindowListener> */}
+        {/* <Promise></Promise> */}
+        <ParseUrl></ParseUrl>
       </div>
     );
   }
